@@ -1,5 +1,27 @@
+import Image from "next/image";
+import Link from "next/link";
+
 function Header() {
-  return <div>Header</div>;
+  return (
+    <header className="w-screen ">
+      <nav className="container flex justify-between m-5 ">
+        <figure>
+          <Image src="" alt="logo" />
+        </figure>
+        <ul className="flex space-x-2">
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/">About</Link>
+          </li>
+          <li>
+            <Link href="/">Contact</Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
 }
 
 export default Header;
