@@ -1,5 +1,11 @@
+import Head from "next/head";
 import Image from "next/image";
 
 export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <Head>
+      <title>Netflix Clone</title>
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
+  );
 }
