@@ -6,7 +6,13 @@ function Header() {
     <header className="w-screen ">
       <nav className="container flex justify-between m-5 ">
         <figure>
-          <Image src="" alt="logo" />
+          <Image
+            src="https://rb.gy/ulxxee"
+            width={100}
+            height={100}
+            alt="logo"
+            className="object-contain cursor-pointer"
+          />
         </figure>
         <ul className="flex space-x-2">
           <li>
