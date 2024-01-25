@@ -27,7 +27,7 @@ function Header() {
   }, []);
 
   return (
-    <header className={`${isScrolled && "[#141414]"}`}>
+    <header className={`${isScrolled && "bg-[#141414]"}`}>
       <div className="flex items-center space-x-2 md:space-x-10">
         <figure className="object-contain cursor-pointer">
           <Image
